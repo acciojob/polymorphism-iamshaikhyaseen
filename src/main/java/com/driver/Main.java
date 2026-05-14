@@ -8,9 +8,9 @@ public class Main {
     int z=4;
     double l=5;
     double m=6;
-    System.out.println(p.product(x,y));
-    System.out.println(p.product(x,y,z));
-    System.out.println(p.product(l,m));
+    p.product(x,y);
+    p.product(x,y,z);
+    p.product(l,m);
   }
 }
 class Product{
